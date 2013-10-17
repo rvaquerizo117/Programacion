@@ -8,7 +8,6 @@ public class Ejercicio5 {
 	la velocidad de una línea de datos (Mbps), y muestre el tiempo que tardará en transmitirlo usando dicha línea.
 	*/
 
-
 			{
 			
 			Scanner teclado=new Scanner(System.in);
