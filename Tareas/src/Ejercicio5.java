@@ -9,7 +9,6 @@ public class Ejercicio5 {
 	*/
 
 
-	
 			{
 			
 			Scanner teclado=new Scanner(System.in);
