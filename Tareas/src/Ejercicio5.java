@@ -22,6 +22,8 @@ public class Ejercicio5 {
 			
 			System.out.print("La estimación es: "+Sg+" segundos");
 			
+			teclado.close();
+			
 			
 
 	}
