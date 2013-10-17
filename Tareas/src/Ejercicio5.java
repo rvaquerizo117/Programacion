@@ -3,8 +3,12 @@ import java.util.Scanner;
 public class Ejercicio5 {
 
 	public static void main(String[] args) 
-//Crea un programa que pida el tamaño de un archivo (Mbytes) y 
-//la velocidad de una línea de datos (Mbps), y muestre el tiempo que tardará en transmitirlo usando dicha línea.
+	/*
+	Crea un programa que pida el tamaño de un archivo (Mbytes) y 
+	la velocidad de una línea de datos (Mbps), y muestre el tiempo que tardará en transmitirlo usando dicha línea.
+	*/
+
+
 	
 			{
 			
