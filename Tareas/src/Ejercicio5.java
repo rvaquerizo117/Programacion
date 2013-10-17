@@ -11,6 +11,7 @@ public class Ejercicio5 {
 			Scanner teclado=new Scanner(System.in);
 			double Mbytes, Mbps, Sg;
 			
+			
 			System.out.print(" Introduce el tamaño en Mbytes: ");
 			Mbytes=teclado.nextDouble();
 			
