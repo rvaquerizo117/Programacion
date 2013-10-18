@@ -11,20 +11,22 @@ public class Ejercicio5 {
 			{
 			
 			Scanner teclado=new Scanner(System.in);
-			double Mbytes, Mbps, Sg;
+			double tamaño, velocidad;
 			
 			
 			System.out.print(" Introduce el tamaño en Mbytes: ");
-			Mbytes=teclado.nextDouble();
+			tamaño=teclado.nextDouble();
 			
 			System.out.print(" Introduce la velocidad de tu conexión en Mbps: ");
-			Mbps=teclado.nextDouble();
+			velocidad=teclado.nextDouble();
 			
-			Sg=Mbytes/Mbps;
-			
-			System.out.print("La estimación es: "+Sg+" segundos");
-			
+			tamaño = (tamaño / 1000000)  * 1024 * 1024 * 8;
 			teclado.close();
+			
+			System.out.println("Datos:" + tamaño + "bits");
+			System.out.println("Velocidad:" + velocidad +"bps");
+			System.out.println("Tiempo para transfereir:"+ tamaño/velocidad);
+			
 			
 			
 
