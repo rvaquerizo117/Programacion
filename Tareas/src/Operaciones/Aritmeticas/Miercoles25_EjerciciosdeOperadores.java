@@ -1,6 +1,6 @@
 package Operaciones.Aritmeticas;
 
-public class Ejercicios {
+public class Miercoles25_EjerciciosdeOperadores {
 
 	public static void main(String[] args) {
 	
