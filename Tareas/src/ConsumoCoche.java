@@ -36,14 +36,6 @@ public class ConsumoCoche {
 			System.out.print(" Tienes que repostar!");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
