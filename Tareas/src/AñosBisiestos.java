@@ -20,10 +20,9 @@ public class AñosBisiestos {
 		año = teclado.nextInt();
 		
 	if( año % 4 == 0  && año % 100 != 0 || (año % 400 == 0) ){
-	System.out.print("Es bisiesto");
+	System.out.printf("Es año %d bisiesto", año);
 		}else{
-			System.out.print("No es bisiesto");
+			System.out.printf("El año %d es bisiesto", año);
 		}
 	}
-
 }
