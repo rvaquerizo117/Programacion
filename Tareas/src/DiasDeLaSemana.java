@@ -35,13 +35,11 @@ public class DiasDeLaSemana {
 			default: 	
 				System.out.println("Escribe un numero de día correcto");
 				
-				}  
-				
-				if(diadelasemana <= 5){
+				}if(diadelasemana < 6){
 					System.out.println("Es laborable");
 				}else{
 					System.out.println("No es laborable");
-				}
+			}
 		}
 
 	}
